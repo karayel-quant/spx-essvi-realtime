@@ -10,6 +10,12 @@ Saves θ/ρ/ψ/φ curves, Δ–T heatmaps, RR/BF tables, and interactive Plotly 
 - **What:** Arbitrage-aware eSSVI surface calibrated on **live SPX** option data.  
 - **Why it’s good:** **Mean absolute IV error ≈ _30 bp_** across 7–60 DTE — tight fit for short tenors.  
 - **Proof:** See `plots/` — model vs vendor IV hugs the 1:1 line; residuals are small and centered; per-expiry MAE is stable.
+<p align="center">
+  <a href="plots/eSSVI_surface_20250915_132310.html">
+    <img src="plots/eSSVI_surface_IV_20250915_132310.png" width="820" alt="eSSVI IV surface (interactive link)">
+  </a>
+  <br><em>Click the image for the interactive surface</em>
+</p>
 
 ---
 
