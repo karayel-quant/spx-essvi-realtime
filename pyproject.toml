@@ -1,0 +1,12 @@
+[project]
+name = "realtime-essvi"
+version = "0.1.0"
+description = "Arbitrage-aware eSSVI fit on live Polygon SPX options with diagnostics and Δ–T visuals"
+authors = [{name="Furkan Karayel"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

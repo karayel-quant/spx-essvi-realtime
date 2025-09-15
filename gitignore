@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_old
+
+# Data & outputs
+plots/
+*.png
+*.html
+*.csv
+
+# OS / editors
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# Secrets
+*.env
+.env*
+polygon_api_key.txt
