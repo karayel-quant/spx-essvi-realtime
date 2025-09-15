@@ -28,33 +28,32 @@ Artifacts will be saved under **plots/**.
 
 ## Latest Run Snapshot (from `plots/`)
 
-**Fit quality**
-- `model_vs_vendor_iv_20250915_132003.png` — Model IV vs vendor IV (with 1:1 line).  
-- `residual_hist_bp_20250915_132003.png` — Residual histogram (basis points).  
-- `mae_by_expiry_bp_20250915_132003.png` — **Per-expiry** MAE (bp).
+### Fit quality
+- [model_vs_vendor_iv_20250915_132003.png](plots/model_vs_vendor_iv_20250915_132003.png) — Model IV vs vendor IV (with 1:1 line).
+- [residual_hist_bp_20250915_132003.png](plots/residual_hist_bp_20250915_132003.png) — Residual histogram (basis points).
+- [mae_by_expiry_bp_20250915_132003.png](plots/mae_by_expiry_bp_20250915_132003.png) — **Per-expiry** MAE (bp).
 
-**Term-structure parameters**
-- `theta_vs_T_20250915_132003.png` — θ(T) (ATM total variance).  
-- `rho_vs_T_20250915_132003.png` — ρ(T) (skew).  
-- `psi_vs_T_20250915_132003.png` — ψ(T) (shape).  
-- `phi_vs_T_20250915_132003.png` — φ(T) = ψ / √θ.
+### Term-structure parameters
+- [theta_vs_T_20250915_132003.png](plots/theta_vs_T_20250915_132003.png) — θ(T) (ATM total variance).
+- [rho_vs_T_20250915_132003.png](plots/rho_vs_T_20250915_132003.png) — ρ(T) (skew).
+- [psi_vs_T_20250915_132003.png](plots/psi_vs_T_20250915_132003.png) — ψ(T) (shape).
+- [phi_vs_T_20250915_132003.png](plots/phi_vs_T_20250915_132003.png) — φ(T) = ψ / √θ.
 
-**Surfaces & heatmaps (interactive + static)**
-- `eSSVI_surface_20250915_132310.html` (interactive variance/IV toggle)  
-  `eSSVI_surface_IV_20250915_132310.png` (static preview)  
-- `iv_heatmap_delta_T_20250915_132515.html` — **Δ–T IV heatmap** (ATM ridge overlaid)  
-  `iv_heatmap_delta_T_20250915_132515.png`  
-- `iv_surface_delta_T_20250915_132958.html` — **3D IV surface in Δ–T**  
-  `iv_surface_delta_T_20250915_132958.png`
+### Surfaces & heatmaps (interactive + static)
+- [eSSVI_surface_20250915_132310.html](plots/eSSVI_surface_20250915_132310.html) — interactive variance/IV toggle  
+  ↳ [eSSVI_surface_IV_20250915_132310.png](plots/eSSVI_surface_IV_20250915_132310.png) — static preview
+- [iv_heatmap_delta_T_20250915_132515.html](plots/iv_heatmap_delta_T_20250915_132515.html) — **Δ–T IV heatmap** (ATM ridge)  
+  ↳ [iv_heatmap_delta_T_20250915_132515.png](plots/iv_heatmap_delta_T_20250915_132515.png)
+- [iv_surface_delta_T_20250915_132958.html](plots/iv_surface_delta_T_20250915_132958.html) — **3D IV surface in Δ–T**  
+  ↳ [iv_surface_delta_T_20250915_132958.png](plots/iv_surface_delta_T_20250915_132958.png)
 
-**Risk-Reversal / Butterfly**
-- `rrbf_25d_table_20250915_132515.csv` & `.md` — 25Δ **RR** and **BF** vs T (table).  
-- `rrbf_lines_20250915_132515.html` & `.png` — lines for **RR25**, **BF25**, and **ATM IV**.
+### Risk-Reversal / Butterfly
+- [rrbf_25d_table_20250915_132515.csv](plots/rrbf_25d_table_20250915_132515.csv) & [rrbf_25d_table_20250915_132515.md](plots/rrbf_25d_table_20250915_132515.md) — 25Δ **RR** and **BF** vs T (table).
+- [rrbf_lines_20250915_132515.html](plots/rrbf_lines_20250915_132515.html) & [rrbf_lines_20250915_132515.png](plots/rrbf_lines_20250915_132515.png) — lines for **RR25**, **BF25**, and **ATM IV**.
 
-> Quick inline preview for recruiters:  
+> Quick inline preview:  
 > <img src="plots/model_vs_vendor_iv_20250915_132003.png" width="420"> <img src="plots/iv_heatmap_delta_T_20250915_132515.png" width="420">
 
----
 
 ## Method (what’s happening)
 
